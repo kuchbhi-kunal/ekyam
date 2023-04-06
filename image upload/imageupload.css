@@ -53,6 +53,31 @@ form p{
   font-size: 16px;
 }
 
+.button {
+  height: 50px;
+  margin: 45px 0;
+}
+
+.button input {
+  height: 100%;
+  width: 100%;
+  outline: none;
+  color: #fff;
+  border: none;
+  font-size: 1.1rem;
+  font-weight: 500;
+  border-radius: .6rem;
+  background: #097F5C;
+  transition: all 0.3s ease;
+  border: none;
+}
+
+.button input:hover {
+  background: #075b42;
+  color: #ffffff;
+}
+
+
 section .row{
   margin-bottom: 10px;
   background: #E9F0FF;
