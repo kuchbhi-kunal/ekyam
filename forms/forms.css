@@ -9,7 +9,7 @@
 }
 
 :root {
-  --main-blue: #3c52f7;
+  --main-green: #097F5C;
   --main-grey: #ccc;
   --sub-grey: #d9d9d9;
 }
@@ -48,7 +48,7 @@ span{
   position: absolute;
   height: 3.5px;
   width: 30px;
-  background: var(--main-blue);
+  background: var(--main-green);
   left: 0;
   bottom: 0;
   border-radius: 3rem;
@@ -85,7 +85,7 @@ form .user__details .input__box {
 
 .user__details .input__box input:focus,
 .user__details .input__box input:valid {
-  border-color: var(--main-blue);
+  border-color: #097F5C;
   border: 2px solid #454545;
 }
 
@@ -122,7 +122,7 @@ form .gender__details .category {
 #dot-2:checked ~ .category .two,
 #dot-3:checked ~ .category .three {
   border-color: var(--sub-grey);
-  background: var(--main-blue);
+  background: var(--main-green);
 }
 
 form input[type="radio"] {
@@ -144,13 +144,13 @@ form .button input {
   font-size: 1.1rem;
   font-weight: 500;
   border-radius: .6rem;
-  background: #3c52f7;
+  background: #097F5C;
   transition: all 0.3s ease;
   border: none;
 }
 
 form .button input:hover {
-  background: #1b2ca8;
+  background: #075b42;
   color: #ffffff;
 }
 
